@@ -9,11 +9,11 @@ const carritoPrecioTotal = document.getElementById('precioTotal');
 const productosContainer = document.getElementById('productosContainer');
 
 $(document).ready(function () {
-    recuperarStock();
     if (localStorage.getItem("carrito")) {
         carrito = JSON.parse(localStorage.getItem("carrito"))
         mostrarCarrito()
     }
+    recuperarStock();
 });
 
 function recuperarStock() {
