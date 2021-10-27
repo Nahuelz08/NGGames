@@ -1,6 +1,6 @@
 
 // DATOS EN JSON PARA CONSUMIR
-const stockJuegosPS4 = "../../json/juegosPs4.json"
+const stockJuegosPS4 = "../json/juegosPs4.json"
 
 // AL CARGAR DOCUMENTO   JQUERY
 $(document).ready(function () {
