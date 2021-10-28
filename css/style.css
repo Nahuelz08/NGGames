@@ -1,3 +1,4 @@
+
     /* Inicio Nav */
 .bg-dark {
     background-color: #73000a !important;
@@ -47,6 +48,7 @@
 }
     /* Fin Nav */
 
+    /* CARRITO */
 #boton-carrito {
     color: white;
     border: none;
@@ -149,7 +151,9 @@
 .boton-eliminar:focus {
     outline: none;
 }
+    /* FIN CARRITO */
 
+/* 
 .card-body {
     display: flex;
     flex-direction: column;
@@ -158,9 +162,22 @@
 
 .card-img-top {
     height: 23.75rem;
+} */
+
+/* Cards */
+.card-img-top-consolas {
+    height: 15rem;
+    object-fit: contain;
 }
+
 .btn-comprar {
     width: 50%;
+}
+/* Fin Cards */
+.container__textos__index {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 15%, rgba(204,204,204,1) 50%, rgba(227,227,227,1) 85%, rgba(255,255,255,1) 100%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /*vista mobile*/

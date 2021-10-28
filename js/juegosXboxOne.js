@@ -20,7 +20,7 @@ const mostrarJuegos = () => {
                 for (const juego of juegosXbox) {
                     $("#productosContainer").append(`
                                                     <div class="col-12 mb-2 col-md-3">
-                                                    <div class="card">
+                                                    <div class="card text-center h-100">
                                                     <a href="juegos-xboxone/${juego.id}-juego-ps4"><div class="carr_producto__img"><img src="${juego.img}" alt="" class="card-img-top"></div></a>
                                                         <div class="card-body">
                                                             <h5 class="carr__producto__nombre">${juego.nombre}</h5>
