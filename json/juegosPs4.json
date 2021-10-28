@@ -3,96 +3,96 @@
 		"id": 1,
 		"nombre": "God of War",
 		"precio": 2000,
-		"img": "../../assets/img/portadas/ps4/portada-gow.jpg"
+		"img": "../assets/img/portadas/ps4/portada-gow.jpg"
 	},
 	{
 		"id": 2,
 		"nombre": "The Last of Us Part 2",
 		"precio": 7000,
-		"img": "../../assets/img/portadas/ps4/portada-tloup2.jpg"
+		"img": "../assets/img/portadas/ps4/portada-tloup2.jpg"
 	},
 	{
 		"id": 3,
 		"nombre": "Mortal Kombat 11 Ultimate",
 		"precio": 6500,
-		"img": "../../assets/img/portadas/ps4/portada-mk11.jpg"
+		"img": "../assets/img/portadas/ps4/portada-mk11.jpg"
 	},
 	{
 		"id": 4,
 		"nombre": "Uncharted 4",
 		"precio": 1900,
-		"img": "../../assets/img/portadas/ps4/portada-uncharted4.jpg"
+		"img": "../assets/img/portadas/ps4/portada-uncharted4.jpg"
 	},
 	{
 		"id": 5,
 		"nombre": "FIFA 21",
 		"precio": 9500,
-		"img": "../../assets/img/portadas/ps4/portada-fifa21.jpg"
+		"img": "../assets/img/portadas/ps4/portada-fifa21.jpg"
 	},
 	{
 		"id": 6,
 		"nombre": "Days Gone",
 		"precio": 2500,
-		"img": "../../assets/img/portadas/ps4/portada-daysgone.jpg"
+		"img": "../assets/img/portadas/ps4/portada-daysgone.jpg"
 	},
 	{
 		"id": 7,
 		"nombre": "Resident Evil : Village",
 		"precio": 8500,
-		"img": "../../assets/img/portadas/ps4/portada-revillage.jpg"
+		"img": "../assets/img/portadas/ps4/portada-revillage.jpg"
 	},
 	{
 		"id": 8,
 		"nombre": "Horizon Zero Dawn",
 		"precio": 1800,
-		"img": "../../assets/img/portadas/ps4/portada-horizon.jpg"
+		"img": "../assets/img/portadas/ps4/portada-horizon.jpg"
 	},
 	{
 		"id": 9,
 		"nombre": "Death Stranding",
 		"precio": 4000,
-		"img": "../../assets/img/portadas/ps4/portada-deathstranding.jpg"
+		"img": "../assets/img/portadas/ps4/portada-deathstranding.jpg"
 	},
 	{
 		"id": 10,
 		"nombre": "Marvel's Spider-Man",
 		"precio": 6000,
-		"img": "../../assets/img/portadas/ps4/portada-spiderman.jpg"
+		"img": "../assets/img/portadas/ps4/portada-spiderman.jpg"
 	},
 	{
 		"id": 11,
 		"nombre": "Bloodborne",
 		"precio": 2700,
-		"img": "../../assets/img/portadas/ps4/portada-bloodborne.jpg"
+		"img": "../assets/img/portadas/ps4/portada-bloodborne.jpg"
 	},
 	{
 		"id": 12,
 		"nombre": "Gran Turismo",
 		"precio": 2700,
-		"img": "../../assets/img/portadas/ps4/portada-granturismo.jpg"
+		"img": "../assets/img/portadas/ps4/portada-granturismo.jpg"
 	},
 	{
 		"id": 13,
 		"nombre": "Infamous Second Son",
 		"precio": 3000,
-		"img": "../../assets/img/portadas/ps4/portada-infamous.jpg"
+		"img": "../assets/img/portadas/ps4/portada-infamous.jpg"
 	},
 	{
 		"id": 14,
 		"nombre": "Red Dead Redemption 2",
 		"precio": 6500,
-		"img": "../../assets/img/portadas/ps4/portada-reddead2.jpg"
+		"img": "../assets/img/portadas/ps4/portada-reddead2.jpg"
 	},
 	{
 		"id": 15,
 		"nombre": "Ghost of Tsushima",
 		"precio": 7000,
-		"img": "../../assets/img/portadas/ps4/portada-tsushima.jpg"
+		"img": "../assets/img/portadas/ps4/portada-tsushima.jpg"
 	},
 	{
 		"id": 16,
 		"nombre": "Until Dawn",
 		"precio": 2000,
-		"img": "../../assets/img/portadas/ps4/portada-untildawn.jpg"
+		"img": "../assets/img/portadas/ps4/portada-untildawn.jpg"
 	}
 ]

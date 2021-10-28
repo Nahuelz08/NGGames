@@ -3,96 +3,96 @@
 		"id": 17,
 		"nombre": "Call of Duty Vanguard",
 		"precio": 12000,
-		"img": "../../assets/img/portadas/xboxone/portada-codvanguard.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-codvanguard.jpg"
 	},
 	{
 		"id": 18,
 		"nombre": "Assetto Corsa Competizione",
 		"precio": 4500,
-		"img": "../../assets/img/portadas/xboxone/portada-corsa.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-corsa.jpg"
 	},
 	{
 		"id": 19,
 		"nombre": "Cyberpunk 2077",
 		"precio": 6800,
-		"img": "../../assets/img/portadas/xboxone/portada-cyberpunk.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-cyberpunk.jpg"
 	},
 	{
 		"id": 20,
 		"nombre": "Far Cry 6",
 		"precio": 11000,
-		"img": "../../assets/img/portadas/xboxone/portada-farcry6.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-farcry6.jpg"
 	},
 	{
 		"id": 21,
 		"nombre": "FIFA 22",
 		"precio": 11200,
-		"img": "../../assets/img/portadas/xboxone/portada-fifa22.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-fifa22.jpg"
 	},
 	{
 		"id": 22,
 		"nombre": "Grand Theft Auto 5",
 		"precio": 5500,
-		"img": "../../assets/img/portadas/xboxone/portada-gta5.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-gta5.jpg"
 	},
 	{
 		"id": 23,
 		"nombre": "Halo 5 Guardians",
 		"precio": 4000,
-		"img": "../../assets/img/portadas/xboxone/portada-halo5.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-halo5.jpg"
 	},
 	{
 		"id": 24,
 		"nombre": "Star Wars: Jedi Fallen Order",
 		"precio": 5500,
-		"img": "../../assets/img/portadas/xboxone/portada-jedifallen.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-jedifallen.jpg"
 	},
 	{
 		"id": 25,
 		"nombre": "Watch Dogs Legion",
 		"precio": 9600,
-		"img": "../../assets/img/portadas/xboxone/portada-legion.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-legion.jpg"
 	},
 	{
 		"id": 26,
 		"nombre": "Minecraft",
 		"precio": 1900,
-		"img": "../../assets/img/portadas/xboxone/portada-minecraft.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-minecraft.jpg"
 	},
 	{
 		"id": 27,
 		"nombre": "Red Dead Redemption 2",
 		"precio": 6500,
-		"img": "../../assets/img/portadas/xboxone/portada-reddead2.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-reddead2.jpg"
 	},
 	{
 		"id": 28,
 		"nombre": "Subnautica",
 		"precio": 4000,
-		"img": "../../assets/img/portadas/xboxone/portada-subnautica.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-subnautica.jpg"
 	},
 	{
 		"id": 29,
 		"nombre": "Assassin's Creed Valhalla",
 		"precio": 10800,
-		"img": "../../assets/img/portadas/xboxone/portada-valhalla.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-valhalla.jpg"
 	},
 	{
 		"id": 30,
 		"nombre": "The Witcher 3: Wild Hunt",
 		"precio": 7500,
-		"img": "../../assets/img/portadas/xboxone/portada-witcher3.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-witcher3.jpg"
 	},
 	{
 		"id": 31,
 		"nombre": "Sekiro Shadows Die Twice",
 		"precio": 10000,
-		"img": "../../assets/img/portadas/xboxone/portada-sekiro.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-sekiro.jpg"
 	},
 	{
 		"id": 32,
 		"nombre": "World War Z",
 		"precio": 7000,
-		"img": "../../assets/img/portadas/xboxone/portada-worldwarz.jpg"
+		"img": "../assets/img/portadas/xboxone/portada-worldwarz.jpg"
 	}
 ]
