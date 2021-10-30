@@ -21,13 +21,15 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Boton Carrito -->
+            <button id="boton-carrito" class="boton-carrito-mobile"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Consolas
                         </a>
@@ -38,12 +40,12 @@
                     </li>
                     <a class="navbar-brand logo__desktop" href="../index.html"><img src="../assets/img/logo.png" alt="ng games"></a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Juegos
                         </a>
                         <ul class="dropdown-menu fade-down" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item active" href="#">Playstation 4</a></li>
+                            <li><a class="dropdown-item" href="#">Playstation 4</a></li>
                             <li><a class="dropdown-item" href="juegos-xboxone.html">Xbox One</a></li>
                         </ul>
                     </li>
@@ -52,11 +54,12 @@
                     </li>
                 </ul>
                 <!-- Boton Carrito -->
-                <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+                <button id="boton-carrito" class="boton-carrito-desktop"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
             </div>
         </div>
     </nav>
     <!-- Fin Nav -->
+
 
     <!-- Carrito Modal -->
     <div class="modal-contenedor">
