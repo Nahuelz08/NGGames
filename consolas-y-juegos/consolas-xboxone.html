@@ -29,24 +29,24 @@
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link active dropdown-toggle d-flex justify-content-center align-items-center" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Consolas
                         </a>
                         <ul class="dropdown-menu fade-down" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="consolas-ps4.html">Playstation 4</a></li>
-                            <li><a class="dropdown-item" href="consolas-xboxone.html">Xbox One</a></li>
+                            <li><a class="dropdown-item active" href="#">Xbox One</a></li>
                         </ul>
                     </li>
                     <a class="navbar-brand logo__desktop" href="../index.html"><img src="../assets/img/logo.png" alt="ng games"></a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle d-flex justify-content-center align-items-center" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Juegos
                         </a>
                         <ul class="dropdown-menu fade-down" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="juegos-ps4.html">Playstation 4</a></li>
-                            <li><a class="dropdown-item active" href="#">Xbox One</a></li>
+                            <li><a class="dropdown-item" href="juegos-xboxone.html">Xbox One</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -54,7 +54,7 @@
                     </li>
                 </ul>
                 <!-- Boton Carrito -->
-                <button id="boton-carrito-desktop"><i class="fas fa-shopping-cart"></i><span id="contadorCarritoDesktop">0</span></button>
+                <button id="boton-carrito-desktop" class="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarritoDesktop">0</span></button>
             </div>
         </div>
     </nav>
@@ -113,14 +113,14 @@
     <div class="container-fluid">
         <div class="container mt-5 sticky-top sticky-searchBar">
             <div class="input-group mb-3">
-                <span class="input-group-text">Buscar Juego</span>
+                <span class="input-group-text">Buscar</span>
                 <input type="text" id="searchBar" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
             </div>
         </div>
         <div class="row">
             <div class="col-12">
                 <div class="container">
-                    <!-- Juegos -->
+                    <!-- Consola -->
                     <div class="row mt-5" id="productosContainer">
                         
                     </div>
@@ -138,6 +138,6 @@
     <script src="../js/modal.js"></script>
     <script src="../js/carrito.js"></script>
     <script src="../js/searchBar.js"></script>
-    <script src="../js/juegosXboxOne.js"></script>
+    <script src="../js/consolaXboxOne.js"></script>
 </body>
 </html>

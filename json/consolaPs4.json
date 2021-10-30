@@ -1,0 +1,74 @@
+[
+	{
+		"id": 43,
+		"nombre": "Playstation 4",
+		"precio": 85000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4.jpg"
+	},
+	{
+		"id": 44,
+		"nombre": "Playstation 4 Black Ops Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-blackops.jpg"
+	},
+	{
+		"id": 45,
+		"nombre": "Playstation 4 Fortnite Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-fortnite.jpg"
+	},
+	{
+		"id": 46,
+		"nombre": "Playstation 4 God of War Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-gow.jpg"
+	},
+	{
+		"id": 47,
+		"nombre": "Playstation 4 Joystick",
+		"precio": 4500,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-joystick.jpg"
+	},
+	{
+		"id": 48,
+		"nombre": "Playstation 4 Joystick Cammo",
+		"precio": 4800,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-joystick-cam.jpg"
+	},
+	{
+		"id": 49,
+		"nombre": "Playstation 4 Cargador de Joysticks",
+		"precio": 8000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-joystick-carga.jpg"
+	},
+	{
+		"id": 50,
+		"nombre": "Playstation 4 Joystick Rojo",
+		"precio": 4800,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-joystick-red.jpg"
+	},
+	{
+		"id": 51,
+		"nombre": "Playstation 4 PS Hits Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-pshits.jpg"
+	},
+	{
+		"id": 52,
+		"nombre": "Playstation 4 + PS MOVE",
+		"precio": 95000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-psmove.jpg"
+	},
+	{
+		"id": 53,
+		"nombre": "Playstation 4 Stars Wars Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-starwars.jpg"
+	},
+	{
+		"id": 54,
+		"nombre": "Playstation 4 Uncharted Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/ps4/consolas-ps4-uncharted4.jpg"
+	}
+]

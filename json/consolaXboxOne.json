@@ -1,0 +1,62 @@
+[
+	{
+		"id": 33,
+		"nombre": "Xbox One",
+		"precio": 85000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone.jpg"
+	},
+	{
+		"id": 34,
+		"nombre": "Xbox One Cyberpunk Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-cyberpunk.jpg"
+	},
+	{
+		"id": 35,
+		"nombre": "Xbox One Fortnite Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-fortnite.jpg"
+	},
+	{
+		"id": 36,
+		"nombre": "Xbox One Stars Wars Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-jedi.jpg"
+	},
+	{
+		"id": 37,
+		"nombre": "Xbox One Joystick Blanco",
+		"precio": 4500,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-joystick.jpg"
+	},
+	{
+		"id": 38,
+		"nombre": "Xbox One Joystick Azul",
+		"precio": 4800,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-joystick-blue.jpg"
+	},
+	{
+		"id": 39,
+		"nombre": "Xbox One Cargador de Joysticks",
+		"precio": 8000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-joystick-carga.jpg"
+	},
+	{
+		"id": 40,
+		"nombre": "Xbox One Joystick Rojo",
+		"precio": 4800,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-joystick-red.jpg"
+	},
+	{
+		"id": 41,
+		"nombre": "Xbox One + Kinect",
+		"precio": 95000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-kinect.jpg"
+	},
+	{
+		"id": 42,
+		"nombre": "Xbox One Minecraft Edition",
+		"precio": 90000,
+		"img": "../assets/img/consolas/xboxone/consolas-xboxone-minecraft.jpg"
+	}
+]

@@ -5,7 +5,6 @@ $(document).ready(function () {
 
 function searchBar (input, selector) {
     document.addEventListener("keyup", (e) => {
-        console.log(e);
         if (e.target.matches(input)) {
             document.querySelectorAll(selector).forEach( el => 
                 el.textContent.toLowerCase().includes(e.target.value.toLowerCase())

@@ -4,8 +4,8 @@ let stockProductos = [];
 
 const contenedorCarrito = document.getElementById('carrito-contenedor');
 const contadorCarrito = document.getElementById('contadorCarrito');
+const contadorCarritoDesktop = document.getElementById('contadorCarritoDesktop');
 const carritoPrecioTotal = document.getElementById('precioTotal');
-
 const productosContainer = document.getElementById('productosContainer');
 
 $(document).ready(function () {
@@ -19,8 +19,14 @@ $(document).ready(function () {
 function recuperarStock() {
     let stockPs4 = JSON.parse(localStorage.getItem('stockPs4'))
     let stockXbox = JSON.parse(localStorage.getItem('stockXbox'))
+    let stockConsolaPs4 = JSON.parse(localStorage.getItem('stockConsolaPs4'))
+
     if(stockPs4){   // DEVUELVE STOCK DE JUEGOS PS4 
         stockPs4.forEach(el => stockProductos.push(el))
+        console.log(stockProductos)
+    }
+    if(stockConsolaPs4){   // DEVUELVE STOCK DE CONSOLA PS4 
+        stockConsolaPs4.forEach(el => stockProductos.push(el))
         console.log(stockProductos)
     }
     if(stockXbox){  // DEVUELVE STOCK DE JUEGOS XBOX
@@ -114,6 +120,7 @@ const mostrarCarrito = () => {
 
 function  actualizarCarrito (){
     contadorCarrito.innerText = Object.values(carrito).reduce((acc, {cantidad}) => acc + cantidad ,0 )
+    contadorCarritoDesktop.innerText = Object.values(carrito).reduce((acc, {cantidad}) => acc + cantidad ,0 )
     precioTotal.innerText = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio ,0 )
     
     const btnVaciar = document.getElementById("btn-vaciar-carrito")
