@@ -3,6 +3,9 @@
 .bg-dark {
     background-color: #73000a !important;
 }
+.navbar {
+    z-index: 99999;
+}
 .navbar-brand img {
     width: 100px;
 }
@@ -153,17 +156,6 @@
 }
     /* FIN CARRITO */
 
-/* 
-.card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card-img-top {
-    height: 23.75rem;
-} */
-
 /* Cards */
 .card-img-top-consolas {
     height: 15rem;
@@ -173,6 +165,11 @@
 .btn-comprar {
     width: 50%;
 }
+
+.filter {
+    display: none;
+}
+
 /* Fin Cards */
 .container__textos__index {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 15%, rgba(204,204,204,1) 50%, rgba(227,227,227,1) 85%, rgba(255,255,255,1) 100%);
@@ -180,6 +177,10 @@
     padding-bottom: 5rem;
 }
 
+/* SearchBar */
+.sticky-searchBar {
+    top: 125px;
+}
 /*vista mobile*/
 @media only screen and (min-width:0px) and (max-width:767px) {
     .logo__desktop {
