@@ -190,7 +190,7 @@
     .logo__desktop {
         display: none;
     }
-    .boton-carrito-desktop {
+    #boton-carrito-desktop {
         display: none;
     }
 }
@@ -203,7 +203,7 @@
     .navbar-brand img {
         width: 125px;
     }
-    .boton-carrito-desktop {
+    #boton-carrito-desktop {
         display: none;
     }
 }
@@ -213,7 +213,7 @@
     .logo__mobile {
         display: none;
     }
-    .boton-carrito-mobile {
+    #boton-carrito {
         display: none;
     }
     .navbar .nav-item .dropdown-menu {
