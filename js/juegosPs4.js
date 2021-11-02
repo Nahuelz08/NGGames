@@ -17,12 +17,12 @@ $(document).ready(function () {
 const mostrarJuegos = () => {
     productosJuegos.forEach(juego => {
         $("#productosContainer").append(`
-                                            <div class="col-12 mb-2 col-md-3 card-container">
+                                            <div class="col-lg-3 mb-2 col-md-6 card-container">
                                             <div class="card text-center h-100">
                                             <a href="juegos-ps4/${juego.id}-juego-ps4.html"><div class="carr_producto__img"><img src="${juego.img}" alt="" class="card-img-top card-img-top-juegos"></div></a>
                                                 <div class="card-body">
                                                     <h5 class="carr__producto__nombre">${juego.nombre}</h5>
-                                                    <p class="carr__producto__precio">$ <span>${juego.precio}</span></p>
+                                                    <p class="carr__producto__precio">$ <span id="carr__producto__precio">${juego.precio}</span></p>
                                                     <button id="carr__producto__id" data-id="${juego.id}" class="btn btn-primary btn-comprar">Comprar</button>
                                                 </div>
                                             </div>

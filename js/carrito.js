@@ -20,6 +20,7 @@ function recuperarStock() {
     let stockPs4 = JSON.parse(localStorage.getItem('stockPs4'))
     let stockXbox = JSON.parse(localStorage.getItem('stockXbox'))
     let stockConsolaPs4 = JSON.parse(localStorage.getItem('stockConsolaPs4'))
+    let stockConsolaXbox = JSON.parse(localStorage.getItem('stockConsolaXbox'))
 
     if(stockPs4){   // DEVUELVE STOCK DE JUEGOS PS4 
         stockPs4.forEach(el => stockProductos.push(el))
@@ -33,6 +34,10 @@ function recuperarStock() {
         stockXbox.forEach(el => stockProductos.push(el))
         console.log(stockProductos)
     }
+    if(stockConsolaXbox){   // DEVUELVE STOCK DE CONSOLA PS4 
+        stockConsolaXbox.forEach(el => stockProductos.push(el))
+        console.log(stockProductos)
+    }
 }
 
 
@@ -40,13 +45,7 @@ if (productosContainer) {
     productosContainer.addEventListener("click", e => {
         agregarCarrito(e)
     
-        // ANIMAR CARRITO
-        $(".fa-shopping-cart").animate({
-            fontSize: "28px"
-        },150)
-        $(".fa-shopping-cart").animate({
-            fontSize: "24px"
-        },150)
+       
         
     })
 }
@@ -55,12 +54,24 @@ contenedorCarrito.addEventListener("click", e => {
     btnAccion(e)
 })
 
+const animarCarrito = () => {
+     // ANIMAR CARRITO
+    $(".fa-shopping-cart").animate({
+        fontSize: "28px"
+    },150)
+    $(".fa-shopping-cart").animate({
+        fontSize: "24px"
+    },150)
+}
+
 const agregarCarrito = e => {
     if (e.target.classList.contains("btn-primary")){
         setCarrito (e.target.parentElement)
+        animarCarrito()
     }
     if (e.target.classList.contains("btn-success")){
         setCarrito (e.target.parentElement)
+        animarCarrito()
     }
     e.stopPropagation()
 }
@@ -69,7 +80,7 @@ const setCarrito = productos => {
     let producto = {
         id: productos.querySelector("#carr__producto__id").dataset.id,
         nombre: productos.querySelector(".carr__producto__nombre").textContent,
-        precio: productos.querySelector("span").textContent,
+        precio: productos.querySelector("#carr__producto__precio").textContent,
         cantidad: 1
     }
 
@@ -85,11 +96,20 @@ const setCarrito = productos => {
 const mostrarCarrito = () => {
     // SI NO HAY PRODUCTOS EN CARRITO, EL CONTENEDOR SE HACE MAS CHICO
     if (Object.keys(carrito).length === 0 ) {
-        $(".modal-carrito").css("min-width", 500);
-        
+            if (window.matchMedia('(max-width: 767px)').matches) {
+                $(".modal-carrito").css("min-width", 150);
+            } else {
+                $(".modal-carrito").css("min-width", 500);
+            };
     } else {  // SI HAY PRODUCTOS, AGRANDA SU TAMAÑO
-        $(".modal-carrito").css("min-width", 750);
+            if (window.matchMedia('(max-width: 767px)').matches) {
+                $(".modal-carrito").css("min-width", 270);
+            } else {
+                $(".modal-carrito").css("min-width", 750);
+            }
     }
+
+
     contenedorCarrito.innerHTML = ""
     Object.values(carrito).forEach(producto => {
         let div = document.createElement('div')
