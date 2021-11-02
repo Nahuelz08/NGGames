@@ -240,13 +240,15 @@
     transform: scale(1.1);
 }
 .footer__texto {
-    color: black;
+    color: white;
+    font-weight: 400;
 }
 
 .footer__iconSocial {
     font-size: 2.5rem;
-    color: #73000a;
+    color: #a3010f;
     padding: 1rem;
+    transition: all 0.5s;
 }
 
 
@@ -313,5 +315,10 @@
     
     .form-control {
         width: 75%;
+    }
+
+    a .footer__iconSocial:hover {
+        transform: scale(1.2);
+        color: white;
     }
 }
