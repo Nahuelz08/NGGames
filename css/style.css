@@ -1,3 +1,7 @@
+.w-35 {
+    width:35%;
+}
+
 
     /* Inicio Nav */
 .bg-dark {
@@ -185,6 +189,67 @@
 .sticky-searchBar {
     top: 125px;
 }
+
+/* Form */
+.form-label {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: solid #73000a;
+    border-inline: inherit;
+    background-color: white;
+}
+.form-label::after {
+    content: "*";
+    color: red;
+}
+.form-control--color {
+    border: 2px solid #73000a;
+}
+
+.form__container {
+    height: 540px;
+    position: relative;
+}
+.form__container::before {
+    content: "";
+    background-image: url("../assets/img/sony-games.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    
+}
+
+/* Footer */
+
+.footer {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 11%, rgba(148,148,148,1) 40%, rgba(97,97,97,1) 62%);
+    background: linear-gradient(0deg, rgba(34,34,34,1) 55%, rgba(45,45,45,1) 90%);
+}
+.footer-final {
+    background-color: #1a1a1a;
+}
+.footer__logo {
+    width: 100px;
+    transition: all 0.5s;
+}
+.footer__logo:hover {
+    transform: scale(1.1);
+}
+.footer__texto {
+    color: black;
+}
+
+.footer__iconSocial {
+    font-size: 2.5rem;
+    color: #73000a;
+    padding: 1rem;
+}
+
+
 /*vista mobile*/
 @media only screen and (min-width:0px) and (max-width:767px) {
     .logo__desktop {
@@ -244,5 +309,9 @@
         visibility: visible;
         top: 100%;
         transform: rotateX(0deg);
+    }
+    
+    .form-control {
+        width: 75%;
     }
 }
