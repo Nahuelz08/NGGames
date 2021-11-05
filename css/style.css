@@ -13,6 +13,9 @@
     background-color: black;
 }
 
+.swal2-container {
+    z-index: 999999999999 !important;
+}
 
     /* Inicio Nav */
 .bg-dark {
@@ -208,6 +211,9 @@
 .producto__imagen {
     width: 100%
 }
+.productos__imagenes__container img {
+    border: solid 2px red;
+}
 
 /* Form */
 .form-label {
@@ -376,5 +382,10 @@
     }
     .productos__imagenes__container img {
         width: 200px;
+    }
+
+    .img-procesar-compra {
+        height: 450px;
+        object-fit: cover;
     }
 }

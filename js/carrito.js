@@ -44,15 +44,13 @@ function recuperarStock() {
 if (productosContainer) {
     productosContainer.addEventListener("click", e => {
         agregarCarrito(e)
-    
-       
-        
     })
 }
 
 contenedorCarrito.addEventListener("click", e => {
     btnAccion(e)
 })
+
 
 const animarCarrito = () => {
      // ANIMAR CARRITO
@@ -101,7 +99,8 @@ const mostrarCarrito = () => {
             } else {
                 $(".modal-carrito").css("min-width", 500);
             };
-    } else {  // SI HAY PRODUCTOS, AGRANDA SU TAMAÑO
+        } else { 
+            // SI HAY PRODUCTOS, AGRANDA SU TAMAÑO
             if (window.matchMedia('(max-width: 767px)').matches) {
                 $(".modal-carrito").css("min-width", 270);
             } else {
@@ -147,6 +146,7 @@ function  actualizarCarrito (){
     btnVaciar.addEventListener("click", () => {
         carrito = {}
         mostrarCarrito()
+        procesarCompra()
     })
 }
 
@@ -158,6 +158,7 @@ const btnAccion = e => {
         producto.cantidad++
         carrito[e.target.dataset.id] = {...producto}
         mostrarCarrito()
+        procesarCompra()
     }
     //DISMINUIR
     if(e.target.classList.contains("btn-danger")) {
@@ -167,5 +168,6 @@ const btnAccion = e => {
             delete carrito[e.target.dataset.id]
         }
         mostrarCarrito()
+        procesarCompra()
     }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NG Games | Contacto</title>
+    <title>NG Games | Procesar Compra</title>
     <script src="https://kit.fontawesome.com/febc0fa0b3.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- AOS -->
@@ -16,7 +16,7 @@
     <!-- Inicio Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid justify-content-evenly">
-            <a class="navbar-brand logo__mobile" href="index.html"><img src="assets/img/logo.png" alt="ng games"></a>
+            <a class="navbar-brand logo__mobile" href="#"><img src="assets/img/logo.png" alt="ng games"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
                 <!-- Boton Carrito -->
@@ -75,44 +75,43 @@
                 </div>
                 <div class="col-6 d-flex justify-content-evenly">
                     <button class="btn btn-danger btn-sm" id="btn-vaciar-carrito">Vaciar Carrito</button>
-                    <a class="d-flex" href="procesar-compra.html"><button class="btn btn-primary btn-sm" id="btn-procesar-compra">Procesar Compra</button></a>
+                    <a class="d-flex" href="#"><button class="btn btn-primary btn-sm" id="btn-procesar-compra">Procesar Compra</button></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid mt-3 container__textos__index">
-        <h2 class="text-center">Alguna duda o consulta? <br> No dudes en <span style="color:red">contactarnos!</span></h2>
-    </div>
-
-    <!-- Formulario -->
-    <div class="container mt-5 form__container d-flex">
-        <div class="container align-self-center position-relative">
-            <div class="row">
-                <div class="col-12">
-                    <form id="form" >
-                        <div class="mb-3 d-flex flex-column align-items-center">
-                            <label for="form-label-name" class="form-label">Nombre</label>
-                            <input type="name" class="form-control form-control--color" id="form-name" placeholder="Pedrito Pedrazo" required>
-                        </div>
-                        <div class="mb-3 d-flex flex-column align-items-center">
-                            <label for="form-label-email" class="form-label">Email</label>
-                            <input type="email" class="form-control form-control--color" id="form-email" placeholder="pedrito@ejemplo.com" required>
-                        </div>
-                        <div class="mb-3 d-flex flex-column align-items-center">
-                            <label for="form-label-text" class="form-label">Deja tu mensaje!</label>
-                            <textarea class="form-control form-control--color" style="height: 150px;" id="form-text" placeholder="Hola! te queria decir que..." rows="3" required></textarea>
-                        </div>
-                        <div class="d-flex justify-content-evenly">
-                            <input class="btn btn-light btn-lg w-35 form-control--color" type="submit" id="submit" value="Enviar">
-                            <input class="btn btn-light btn-lg w-35 form-control--color" type="reset" id="reset" value="Limpiar">
-                        </div>
-                    </form>
+    <div class="container-fluid pt-2">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/sony-games.jpg" class="d-block w-100 img-procesar-compra" alt="...">
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="container mt-5">
+        <div class="row">
+            <h2 class="text-center">Es hora de procesar la compra!</h2>
+        </div>
+        <div class="row">
+            <h3 class="text-decoration-underline">Tus productos:</h3>
+            <div id="procesarCompraContainer" class="mt-5 text-center">
+                <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row row-cols-3">
+                        <h4>*Nombre: Gow</h4>
+                        <h5>*Precio: $2000</h5>
+                        <h6>*Cantidad: 1</h6>
+                    </div>
+                </div> -->
+            </div>
+            <div class="d-flex flex-column align-items-center mt-5" id="procesarCompraTotal">
+                <h3 class="text-center mt-3"><b>Total: $<span id=precioTotalProcesar>0</span></b></h3>
+                <button class="btn btn-primary mt-5 w-50" id="btn-comprar-todo">Comprar!</button>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer -->
     <footer class="footer container-fluid mt-5">
         <div class="row">
@@ -123,7 +122,7 @@
         <div class="row mb-3">
             <div class="col-lg-4 d-flex flex-column align-items-center">
                 <h3 class="footer__texto">Tenes alguna <span style="color:#a3010f"><b>duda?</b></span></h3>
-                <a href="#"><btn class="btn btn-danger mt-3">Contactanos!</btn></a>
+                <a href="contacto.html"><btn class="btn btn-danger mt-3">Contactanos!</btn></a>
             </div>
             <div class="col-lg-4">
                 <!-- Vacio para generar un espacio al medio -->
@@ -152,8 +151,8 @@
         AOS.init();
     </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/form.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/carrito.js"></script>
+    <script src="js/procesarCompra.js"></script>
 </body>
 </html>
